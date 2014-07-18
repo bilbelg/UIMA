@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/uima/uimafit-core/2.0.0/uimafit-core-2.0.0.jar" sourcepath="M2_REPO/org/apache/uima/uimafit-core/2.0.0/uimafit-core-2.0.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" sourcepath="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/bilel/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.2/commons-io-2.2.jar" sourcepath="M2_REPO/commons-io/commons-io/2.2/commons-io-2.2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/bilel/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/uima/uimaj-core/2.4.2/uimaj-core-2.4.2.jar" sourcepath="M2_REPO/org/apache/uima/uimaj-core/2.4.2/uimaj-core-2.4.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/3.1.2.RELEASE/spring-core-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-core/3.1.2.RELEASE/spring-core-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-asm/3.1.2.RELEASE/spring-asm-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-asm/3.1.2.RELEASE/spring-asm-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/bilel/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/3.1.2.RELEASE/spring-context-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-context/3.1.2.RELEASE/spring-context-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/3.1.2.RELEASE/spring-aop-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-aop/3.1.2.RELEASE/spring-aop-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/3.1.2.RELEASE/spring-beans-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-beans/3.1.2.RELEASE/spring-beans-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/3.1.2.RELEASE/spring-expression-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-expression/3.1.2.RELEASE/spring-expression-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/uima/uimafit-cpe/2.0.0/uimafit-cpe-2.0.0.jar" sourcepath="M2_REPO/org/apache/uima/uimafit-cpe/2.0.0/uimafit-cpe-2.0.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/uima/uimaj-cpe/2.4.2/uimaj-cpe-2.4.2.jar" sourcepath="M2_REPO/org/apache/uima/uimaj-cpe/2.4.2/uimaj-cpe-2.4.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/uima/uimaj-adapter-vinci/2.4.2/uimaj-adapter-vinci-2.4.2.jar" sourcepath="M2_REPO/org/apache/uima/uimaj-adapter-vinci/2.4.2/uimaj-adapter-vinci-2.4.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/uima/jVinci/2.4.2/jVinci-2.4.2.jar" sourcepath="M2_REPO/org/apache/uima/jVinci/2.4.2/jVinci-2.4.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/uima/uimaj-tools/2.3.1/uimaj-tools-2.3.1.jar" sourcepath="M2_REPO/org/apache/uima/uimaj-tools/2.3.1/uimaj-tools-2.3.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/uima/uimaj-document-annotation/2.3.1/uimaj-document-annotation-2.3.1.jar" sourcepath="M2_REPO/org/apache/uima/uimaj-document-annotation/2.3.1/uimaj-document-annotation-2.3.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/uima/DictionaryAnnotator/2.3.1/DictionaryAnnotator-2.3.1.jar" sourcepath="M2_REPO/org/apache/uima/DictionaryAnnotator/2.3.1/DictionaryAnnotator-2.3.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/bilel/.m2/repository/org/apache/uima/DictionaryAnnotator/2.3.1/DictionaryAnnotator-2.3.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/xmlbeans/xmlbeans/2.4.0/xmlbeans-2.4.0.jar" sourcepath="M2_REPO/org/apache/xmlbeans/xmlbeans/2.4.0/xmlbeans-2.4.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jdom/jdom/1.0/jdom-1.0.jar" sourcepath="M2_REPO/jdom/jdom/1.0/jdom-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.3.1/junit-4.3.1.jar" sourcepath="M2_REPO/junit/junit/4.3.1/junit-4.3.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/bilel/.m2/repository/junit/junit/4.3.1/junit-4.3.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+</classpath>
