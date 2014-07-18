@@ -46,27 +46,22 @@ public class orgAnnotator extends JCasAnnotator_ImplBase {
 	      if (!(token.equals(" ")||token.equals(","))){ 
 	     PresdePres=tokPres;
 	     tokPres=token;
-	     //System.out.println("tok avant prec est "+PresdePres);
 	     
 	      }
 	      
 	      token = tokenizer.nextToken();
 	      
 	      if (!(token.equals(" ")||token.equals(","))){
-	 
-	          //System.out.println("tok  prec est "+tokPres);
-	         
-	         // System.out.println("tok courant  est "+token);
 	         
 	          if((token.matches("^[A-Z].*"))){
 	         
 	         if((tokPres.matches("^[A-Z].*"))){
 	         doubleMot=tokPres+" "+token;
-	         System.out.println(" mot comp "+doubleMot);
+	         
 	         
 	         	if((PresdePres.matches("^[A-Z].*"))){
 	         	triMot=PresdePres+" "+doubleMot;
-	         	System.out.println(" tri mot comp "+triMot);
+	         	
 	         	}
 	         }
 	          
@@ -88,16 +83,14 @@ public class orgAnnotator extends JCasAnnotator_ImplBase {
 	      
 	      if ((expandedForm2 != null)) {
 	          // create annotation
-	       System.out.println("existe dans le dico "+expandedForm2);
-	       System.out.println("longeur de mot composé "+doubleMot.length());
+	      
 	       organisation annot2 = new organisation(aJCas, pos2, pos2 + doubleMot.length(), doubleMot);
 	          annot2.addToIndexes();
 	        }
 	      
 	      if ((expandedForm3 != null)) {
 	          // create annotation
-	       System.out.println("existe dans le dico "+expandedForm3);
-	       System.out.println("longeur de mot composé "+triMot.length());
+	      
 	       organisation annot3 = new organisation(aJCas, pos2, pos2 + triMot.length(), triMot);
 	          annot3.addToIndexes();
 	        }

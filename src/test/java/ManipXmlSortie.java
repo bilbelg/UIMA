@@ -40,7 +40,6 @@ public class ManipXmlSortie {
 			
 			Element courant =(Element) i.next();
 			if(courant.getAttributeValue("expandedForm") !=null){
-			//System.out.println(courant.getAttributeValue("expandedForm"));
 			organization.put(courant.getAttributeValue("expandedForm"),1);
 			}
 		}
